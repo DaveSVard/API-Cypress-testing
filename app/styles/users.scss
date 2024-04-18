@@ -1,0 +1,23 @@
+.show {
+    width: 100%;
+
+    .container {
+        width: 1370px;
+        padding: 15px;
+        margin: 0 auto;
+        
+        .show__wrapper {
+            width: 100%;
+               
+            & table {
+                border: 1px solid black;
+                border-collapse: collapse;
+
+                & td, & th {
+                    border: 1px solid black;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
